@@ -32,7 +32,7 @@ body{
 .hero{
     width: 100%;
     height: 400px;
-    background-image: url('/src/images/image-michael-jordan.png');
+    background-image: url('/srcEstático/Images/images/0_0_20100503174805917.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -42,10 +42,16 @@ body{
     min-width: 70%;
 }
 
+.icone{
+    max-height: 80px;
+}
+
+
 .hero_content{
     width: 80%;
     height: auto;
-    color: var(--white);
+    margin-top: 210px;
+    color:rgb(255, 255, 255);
 }
 
 .hero_content h1, .hero_content p{
@@ -56,6 +62,7 @@ margin-bottom: 20px;
 .hero_content h2{
     font-size: 24px;
     margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero_content p{
@@ -82,7 +89,7 @@ main{
 }
 
 .heading_product{
-    width: 590px;
+    width: 700px;
     height: 100%;
     margin-bottom: 72px;
 }
@@ -91,6 +98,7 @@ main{
     text-align: center;
     font-size: 32px;
     margin-bottom: 20px;
+    margin-left: -100px;
 }
 
 .heading_product p{
@@ -108,7 +116,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--white_soft);
+    background-color: rgb(255, 255, 255);
+    
 }
 
 .card_product_details{
@@ -142,4 +151,44 @@ main{
     height: 100%;
     align-items: center;
     justify-items: center;
+    padding-left: 250px;
  }
+
+ img{
+    max-width: 200px;
+ }
+
+ bold{
+    font-weight: bold;
+    color: rgb(175, 115, 115);
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-items: center;
+    margin-left: 0px;
+ }
+
+ footer{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background:#e0e7f8;
+    border: 5px solid rgb(244, 239, 239);
+    justify-content: center;
+    margin-bottom: 40px;
+    
+ }
+
+ .e-mail{
+    font-weight: 700;
+ }
+
+ .tel{
+    font-weight: 700;
+    margin-left: 50px;
+ }
+
+.name{
+    font-weight: 700;
+    margin-left: 80px;
+}
